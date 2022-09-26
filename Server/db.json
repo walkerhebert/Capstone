@@ -1,0 +1,22 @@
+[
+    {
+        "name": "rest name",
+        "picture": "adasdasd.jpg",
+        "restaurant": "restaurant",
+        "likes": 0
+    },
+    {
+        "id": 2,
+        "name":"rest name",
+        "picture": "adasdasd.jpg",
+        "restaurant": "restaurant",
+        "likes": 0
+    },
+    {
+        "id": 2,
+        "name":"rest name",
+        "picture": "adasdasd.jpg",
+        "restaurant": "restaurant",
+        "likes": 0
+    }
+]
