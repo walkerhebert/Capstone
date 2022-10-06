@@ -1,22 +1,63 @@
 [
     {
-        "name": "rest name",
-        "picture": "adasdasd.jpg",
-        "restaurant": "restaurant",
-        "likes": 0
+        "id": 1,
+        "name": "Fancy Olive Garden",
+        "picture": "https://dicasnovayork.com.br/wp-content/uploads/2020/01/olive_garden_fachada.jpg",
+        "likes": -5
     },
     {
         "id": 2,
-        "name":"rest name",
-        "picture": "adasdasd.jpg",
-        "restaurant": "restaurant",
+        "name":"Habanero's",
+        "picture": "https://tse3.mm.bing.net/th?id=OIP.E8EePHK3-zUD8izpiBMpSQHaE8&pid=Api&P=0",
+        "likes": 53
+    },
+    {
+        "id": 3,
+        "name":"Chick fil a",
+        "picture": "https://doyouremember.com/wp-content/uploads/2019/06/chick-fil-a-storefront.jpg",
+        "likes": 899
+    },
+    {
+        "id": 4,
+        "name":"In n Out",
+        "picture": "https://cdn.vox-cdn.com/thumbor/IQSMVEodTa4r2JbzEdJWFUm7of0=/99x0:837x554/1200x800/filters:focal(99x0:837x554)/cdn.vox-cdn.com/uploads/chorus_image/image/46379708/in-n-out-anaheim.0.0.jpg",
+        "likes": 850
+    },
+    {
+        "id": 5,
+        "name":"Shake Shack",
+        "picture": "http://seoulspace.com/wp-content/uploads/2016/07/shake-shack.jpg",
+        "likes": 247
+    },
+    {
+        "id": 6,
+        "name":"McDonald's",
+        "picture": "https://api.time.com/wp-content/uploads/2015/01/450347558.jpg",
         "likes": 0
     },
     {
-        "id": 2,
-        "name":"rest name",
-        "picture": "adasdasd.jpg",
-        "restaurant": "restaurant",
-        "likes": 0
+        "id": 7,
+        "name":"Wendy's",
+        "picture": "https://tse3.mm.bing.net/th?id=OIP.56HJrYnqHql05d-8CWRCNgHaE8&pid=Api&P=0",
+        "likes": 82
+    },
+    {
+        "id": 8,
+        "name":"Sonic",
+        "picture": "https://s.thestreet.com/files/tsc/v2008/photos/all-pics/companies/s/SonicExterior1105.jpg",
+        "likes": 106
+    },
+    {
+        "id": 9,
+        "name":"Texas Roadhouse",
+        "picture": "https://www.nrn.com/sites/nrn.com/files/texasroadhouse.gif",
+        "likes": 177
+    },
+    {
+        "id": 10,
+        "name":"Raising Cane's",
+        "picture": "https://cdn.vox-cdn.com/thumbor/ABXzQwjbZJQrWfOZJUKFLgQql_I=/0x58:1500x843/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/20006954/raising_canes_1.jpeg",
+        "likes": 95
     }
+    
 ]

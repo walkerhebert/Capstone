@@ -7,9 +7,16 @@ app.use(express.json())
 app.use(cors())
 
 const {
-    getRestaurants,
+    getRests,
+    addRest,
+    deleteRest,
+    updateLikes
 } = require('./controller')
 
-app.get('./getRestaurants', getRestaurants)
+app.get('/getRests', getRests)
+app.post('/addRest', addRest)
+app.delete('/deleteRest/:id', deleteRest)
+app.put('/updateLikes/:id', updateLikes)
 
-app.listen(4004, () => console.log('Relp is running on port 4004!'))
+
+app.listen(4005, () => console.log('Port is running on port 4005!'))

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="header">
+            <h1 class="logo">RELP</h1>
+            <form action="https://www.google.com/images" method="get" class="search">
+                <input type="text" placeholder="Search for images" name="q">
+                <button type="submit"><img src ="pictures/search.png"></button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <div>
+        <span class="pop">Popular Restaurants</span>
+        <p class="dont-see">Don't see your favorite restaurant?</p>
+        <!-- <p  class="add-txt">Add it here!</p> -->
+
+        <section id="restaurantDisplay"></section>
+        
+        <section class="restForm">
+            <input id="nameInput" placeholder="Restaurant Name"/>
+            <input id="imageInput" placeholder="Image URL"/>
+            <button id="addRest">Submit</button>
+        </section>
+
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,246 @@
+body
+{
+margin: 0;
+width:100%;
+height:100%;
+padding:0px;
+background-color:#1a1a1a;
+position:absolute;
+background-image: url(./pictures/italy-back-image.jpg);
+background-size: 100%;
+}
+
+.logo {
+  font-size: 80px;
+}
+
+.search {
+  width: 100%; 
+  height: 2vh;
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  display:flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  position: fixed;
+  right: 70px;
+  top: 30px;
+  /* top: 100px; */
+}
+
+.search input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+
+::placeholder {
+  color: #000000 !important;
+}
+
+.search button img{
+  width: 10px;
+}
+
+.search button {
+  border: 0;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #58629b;
+  cursor: pointer;
+}
+.header
+{
+text-align:center;
+background-color:#1a1a1a;
+font-size:64px;
+font-family:FreeSans;
+color:#ffffff;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+position: fixed;
+background-color: black;
+/* height: 100px; */
+width: 100%;
+z-index: 2;
+width: 100%;
+height: 110px;
+}
+
+.pop
+{
+font-size:36px;
+font-family:FreeSans;
+color:#ffffff;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+margin-top: 140px;
+}
+
+.dont-see
+{
+    font-size:20px;
+    font-family:FreeSans;
+    color:#ffffff;
+    display: flex; 
+    justify-content: right; 
+    align-items: right; 
+    padding-right: 250px;
+    padding-top: 10px;
+
+}
+
+/* .add-txt
+{
+    font-size:20px;
+    font-family:FreeSans;
+    color:#ffffff;
+    display: flex; 
+    justify-content: center; 
+    /* align-items: center;  */
+    /* bottom: 5px;
+    padding-left: 1100px;
+} */ 
+
+#restaurantDisplay {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#subBTN {
+  text-align:center;
+  vertical-align:text-top;
+  font-size:10px;
+  left:800px;
+  top:958px;
+  width:67px;
+  height:16px;
+  position:absolute;
+  /* line-height:auto; */
+  color: #000;
+  background-color: #ffffff;
+}
+
+.rest-image {
+ width: 300px; 
+ height: 300px;
+}
+
+
+.rest-card {
+    background-color: #000000;
+    color: #ffffff;
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+   }
+   .rest-name {
+    font-family:FreeSans;
+    font-weight: 900;
+   }
+   main {
+    display: flex; 
+    justify-content: center;
+  }
+
+   .restForm {
+  position: absolute;
+  top: 247px;
+  right: 180px;
+  cursor: pointer;
+  z-index: 1;
+  
+ 
+  } 
+
+  /* .sub {
+
+    width: 57px;
+    height: 20px;
+  } */
+
+  #img {
+    top: 210px;
+    width: 75px
+  }
+  
+  #name {
+    top: 210px;
+    width: 75px;
+  }
+
+  .dislikeBtn {
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 10%;
+    /* border: 1px solid rgb(255, 255, 255) */
+    /* outline: 20px; */
+  }
+
+  .likeBtn {
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 10%;
+    /* border: 1px solid rgb(255, 255, 255) */
+    /* outline: 20px; */
+  }
+
+  .deleteBtn {
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 10%;
+    /* border: 1px solid rgb(255, 255, 255) */
+    /* outline: 20px; */
+  }
+  .likeBtn:hover {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(255, 255, 255)
+  }
+
+  .dislikeBtn:hover {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(255, 255, 255)
+  }
+
+  .deleteBtn:hover {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(255, 255, 255)
+  }
+
+  #imageInput {
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  #nameInput {
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  #addRest:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  #addRest {
+    border: 3px solid rgb(0, 0, 0); 
+  }
