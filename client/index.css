@@ -68,7 +68,6 @@ justify-content: center;
 align-items: center; 
 position: fixed;
 background-color: black;
-/* height: 100px; */
 width: 100%;
 z-index: 2;
 width: 100%;
@@ -99,17 +98,6 @@ margin-top: 140px;
 
 }
 
-/* .add-txt
-{
-    font-size:20px;
-    font-family:FreeSans;
-    color:#ffffff;
-    display: flex; 
-    justify-content: center; 
-    /* align-items: center;  */
-    /* bottom: 5px;
-    padding-left: 1100px;
-} */ 
 
 #restaurantDisplay {
   display: flex;
@@ -129,7 +117,6 @@ margin-top: 140px;
   width:67px;
   height:16px;
   position:absolute;
-  /* line-height:auto; */
   color: #000;
   background-color: #ffffff;
 }
@@ -172,11 +159,6 @@ margin-top: 140px;
  
   } 
 
-  /* .sub {
-
-    width: 57px;
-    height: 20px;
-  } */
 
   #img {
     top: 210px;
@@ -193,8 +175,6 @@ margin-top: 140px;
     cursor: pointer;
     color: #ffffff;
     border-radius: 10%;
-    /* border: 1px solid rgb(255, 255, 255) */
-    /* outline: 20px; */
   }
 
   .likeBtn {
@@ -202,8 +182,6 @@ margin-top: 140px;
     cursor: pointer;
     color: #ffffff;
     border-radius: 10%;
-    /* border: 1px solid rgb(255, 255, 255) */
-    /* outline: 20px; */
   }
 
   .deleteBtn {
@@ -211,8 +189,6 @@ margin-top: 140px;
     cursor: pointer;
     color: #ffffff;
     border-radius: 10%;
-    /* border: 1px solid rgb(255, 255, 255) */
-    /* outline: 20px; */
   }
   .likeBtn:hover {
     background-color: rgb(51, 51, 51);

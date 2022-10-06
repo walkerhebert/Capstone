@@ -24,7 +24,6 @@ const createRestCard = (rest) => {
     const restCard = document.createElement('section')
     restCard.classList.add('rest-card')
 
-    //CHANGE LATER
     restCard.innerHTML = `
     <img class="rest-image" src=${rest.picture} alt='rest image' />  
     <p class="rest-name">${rest.name}</p>
